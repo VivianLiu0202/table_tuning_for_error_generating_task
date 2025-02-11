@@ -5,90 +5,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc4b5d77-856f-478a-ba6e-af7b21f689c5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/table_tuning_for_error_generating_task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_ColumnFinding_fewshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_ColumnFinding_zeroshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_ColumnTypeAnnotation_fewshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_ColumnTypeAnnotation_zeroshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_DataImputation_fewshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_DataImputation_zeroshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_EntityMatching_fewshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_EntityMatching_zeroshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_ErrorDetection_fewshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_ErrorDetection_zeroshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_MissingValueIdentification_fewshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_MissingValueIdentification_zeroshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_Row2RowTransformation_zeroshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_SchemaMatching_fewshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_SchemaMatching_zeroshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_TableQuestion_fewshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/test/test_TableQuestion_zeroshot.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_ColumnAugmentation.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_DataImputation.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_DataImputation_augment.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_EntityMatching.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_EntityMatching_augment.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_ErrorDetection.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_ErrorDetection_augment.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_HeaderValueMatching.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_HeaderValueMatching_augment.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_ListExtraction.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_NL2SQL.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_Row2RowTransformation.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_RowAugmentation.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_RowColumnFiltering.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_RowColumnSorting.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_RowColumnSwapping.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_SchemaMatching.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_SchemaMatching_augment.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tablegpt_data/train/train_TableSummary.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/beers_annotation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/flight_annotation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/hospital_annotation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/movie_annotation.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/rayyan_annotation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/data_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/prompt_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/table_serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/table_task/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/table_task/base_table_task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/table_task/error_correction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/table_task/error_detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/table_task/error_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_generator/table_task/table_task_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/evaluator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_data.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Airbnb/Airbnb_annotation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Airbnb/clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Airbnb/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Credit/Credit_annotation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Credit/clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Credit/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Movie_BoxOffice/Movie_1_annotation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Movie_BoxOffice/clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Movie_BoxOffice/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Restaurant/Restaurant_annotation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Restaurant/clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Restaurant/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Sensor/Sensor_annotation.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Sensor/clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Sensor/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/beers/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/flight/clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/flight/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/hospital/clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/hospital/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/movie_metadata/clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/movie_metadata/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/rayyan/clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/rayyan/dirty.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/train_llama3_lora.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/convert_to_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/download_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/beers_annotation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/source/beers/beers_annotation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/flight_annotation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/source/flight/flight_annotation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/hospital_annotation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/source/hospital/hospital_annotation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/movie_annotation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/source/movie_metadata/movie_annotation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/rayyan_annotation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/source/rayyan/rayyan_annotation.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dataset_generator/table_task/base_table_task.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2sZDNkAOsDpjiiQ8M70CWYzeYmw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/liuvivian/table_tuning_for_error_generating_task/source",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.data_generator.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/liuvivian/table_tuning_for_error_generating_task/source/Credit&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source" />
-      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/source/Credit" />
+      <recent name="$PROJECT_DIR$/source/Sensor" />
+      <recent name="$PROJECT_DIR$/source/Restaurant" />
+      <recent name="$PROJECT_DIR$/source/Movie_1" />
+      <recent name="$PROJECT_DIR$/source/Airbnb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/Marketing" />
+      <recent name="$PROJECT_DIR$/source/Sensor" />
+      <recent name="$PROJECT_DIR$/source/Restaurant" />
+      <recent name="$PROJECT_DIR$/source/Credit" />
+      <recent name="$PROJECT_DIR$/source/Airbnb" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -107,11 +134,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738654165005</updated>
-      <workItem from="1738654166107" duration="2541000" />
+      <workItem from="1738654166107" duration="108764000" />
+      <workItem from="1739276225364" duration="2155000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset_generator/data_loader.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset_generator/data_generator.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset_generator/data_generator.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset_generator/data_generator.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset_generator/data_generator.py</url>
+          <line>210</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset_generator/data_generator.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset_generator/data_generator.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataset_generator/data_generator.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="output_json" language="Python" />
+        <watch expression="results" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/table_tuning_for_error_generating_task$data_loader.coverage" NAME="data_loader 覆盖结果" MODIFIED="1739275744253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset_generator" />
+    <SUITE FILE_PATH="coverage/table_tuning_for_error_generating_task$data_generator.coverage" NAME="data_generator 覆盖结果" MODIFIED="1739275542520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset_generator" />
+    <SUITE FILE_PATH="coverage/table_tuning_for_error_generating_task$temp.coverage" NAME="temp 覆盖结果" MODIFIED="1739198999068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
